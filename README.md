@@ -12,7 +12,7 @@ The original prototype and version 2 getting assembled:
 
 ![PXL_20240628_131755973](https://github.com/someyob/Pico16cV2/assets/3163755/25468ea8-ef2b-4aa9-bc28-55c718759146)
 
-I used brown keyswitches with transparent 2-pieces keycaps to create the keyboard, a standard i2c 1602 lcd display (2 lines of 16 characters), and a Raspberry Pi Pico.  The coding is done in CircuitPython.  The result is much bigger than a real 16C, but that wasn't a huge impediment for me.  The biggest challenge, aside from coding, was the make the keycaps look good.  I think it's an improvement over the prototype.
+I used brown keyswitches with transparent 2-piece keycaps to create the keyboard, a standard i2c 1602 lcd display (2 lines of 16 characters), and a Raspberry Pi Pico.  The coding is done in CircuitPython.  The result is much bigger than a real 16C, but that wasn't a huge impediment for me.  The biggest challenge, aside from coding, was to make the keycaps look good.  I think it's an improvement over the prototype.
 
 The fully assembled v2 is shown here:
 
@@ -21,6 +21,6 @@ The fully assembled v2 is shown here:
 
 At this point, lots of extra functionality still has to go in here, but it does the basic stuff, and in the same fashion as the true 16C (using RPN).
 
-You may note that there's some unpopulated components on the PCB.  In order to take advantage of the space, and create other optional capabilities, I added two rotary encoders and included them (the push-button) in the keypad matrix.  This way, I can use the same pcb as a basis for a macro keyboard.  There's also breakouts of the unused Pi Pico GPIO as well as a spot for an LED, should it find a use.
+You may note that there's some unpopulated components on the PCB.  In order to take advantage of the space, and create other optional capabilities, I added two rotary encoders and included them (each includes a push-button) in the keypad matrix.  This way, I can use the same pcb as a basis for a macro keyboard.  There's also breakouts of the unused Pi Pico GPIO as well as a spot for an LED, should it find a use.
 
 More notes on the build and the software to come.
